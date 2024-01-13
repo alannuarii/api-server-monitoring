@@ -13,7 +13,7 @@ const io = new Server(server, {
         methods: ["GET", "POST"]
     }
 });
-const port = 3333;
+const port = 3220;
 
 io.on('connection', (socket) => {
     console.log('Client connected'); 
